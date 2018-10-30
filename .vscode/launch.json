@@ -5,13 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "wpilib simulate",
+            "name": "Simulate Robot",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
-            "args": [
-                "sim"
-            ]
+            "program": "${workspaceFolder}/robot.py",
+            "console": "integratedTerminal",
+            "args": ["sim"]
         }
     ]
 }
